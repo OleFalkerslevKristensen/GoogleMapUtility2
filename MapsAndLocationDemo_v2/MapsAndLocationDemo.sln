@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapsAndLocationDemo", "MapsAndLocationDemo\MapsAndLocationDemo.csproj", "{2CC80FD8-6BDC-4872-A554-B3A2F6BEDC8F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F52E1748-06E8-432E-B81B-626EE7EC166A} = {F52E1748-06E8-432E-B81B-626EE7EC166A}
+		{5C2F4CB0-D935-47DF-B725-46B90B605A5E} = {5C2F4CB0-D935-47DF-B725-46B90B605A5E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapV2", "GoogleMapV2\GoogleMapV2.csproj", "{5C2F4CB0-D935-47DF-B725-46B90B605A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapsUtility", "GoogleMapsUtility\GoogleMapsUtility.csproj", "{F52E1748-06E8-432E-B81B-626EE7EC166A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CC80FD8-6BDC-4872-A554-B3A2F6BEDC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC80FD8-6BDC-4872-A554-B3A2F6BEDC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC80FD8-6BDC-4872-A554-B3A2F6BEDC8F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2CC80FD8-6BDC-4872-A554-B3A2F6BEDC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC80FD8-6BDC-4872-A554-B3A2F6BEDC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C2F4CB0-D935-47DF-B725-46B90B605A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2F4CB0-D935-47DF-B725-46B90B605A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2F4CB0-D935-47DF-B725-46B90B605A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2F4CB0-D935-47DF-B725-46B90B605A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52E1748-06E8-432E-B81B-626EE7EC166A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52E1748-06E8-432E-B81B-626EE7EC166A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52E1748-06E8-432E-B81B-626EE7EC166A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52E1748-06E8-432E-B81B-626EE7EC166A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = MapsAndLocationDemo\MapsAndLocationDemo.csproj
+	EndGlobalSection
+EndGlobal
